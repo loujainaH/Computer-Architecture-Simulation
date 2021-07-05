@@ -1,0 +1,16 @@
+LDI r1 30
+LDI r2 31
+LDI r3 31
+ADD r1 r2
+ADD r1 r2
+ADD r1 r2
+ADD r1 r2
+SUB r1 r3
+LDI r4 2
+LDI r5 1
+AND r4 r5
+OR r5 r4
+SLC r3 1
+SRC r3 1
+SB r1 0
+LB r6 0

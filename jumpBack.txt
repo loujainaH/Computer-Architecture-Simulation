@@ -1,0 +1,7 @@
+ldi r1 1
+ldi r2 0
+ldi r3 3
+beqz r1 2
+sub r1 r1
+jr r2 r3
+add r1 r3
